@@ -1,12 +1,12 @@
 num=map(int,input().split())
 # num_list=[]
 num_list=list(map(int,input().split()))
-num_list2=[]
+ans_list=[]
 for i in num_list:
     if i%2==0:
-        num_list2.append(i)
-for i in num_list2:
-    print(i)        
+        ans_list.append(i)
+for i in ans_list:
+    print(i,end=" ")        
 
 
 # print(num_list)
