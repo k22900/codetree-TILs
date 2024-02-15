@@ -25,3 +25,4 @@ for _ in range(q):
         ans=nums(task[1],task[2])
         for i in range(len(ans)):
             print(ans[i],end=" ")
+        print()
